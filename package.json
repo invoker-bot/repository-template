@@ -4,7 +4,7 @@
   "description": "A repository template for common open-source project standardization (README, CONTRIBUTING, GitHub templates).",
   "scripts": {
     "test": "(is-ci && npm install) || exit 0",
-    "commit":"cz",
+    "commit": "cz",
     "prepare": "git config commit.template COMMIT_TEMPLATE.txt && husky install",
     "release": "standard-version",
     "release:pre": "standard-version --prelease",
@@ -30,7 +30,8 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
-    "is-ci": "^3.0.1"
+    "is-ci": "^3.0.1",
+    "standard-version": "^9.3.2"
   },
   "config": {
     "commitizen": {
