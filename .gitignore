@@ -1,0 +1,20 @@
+
+# Optimization
+
+# Module
+
+/node_modules/
+
+# Distribution
+
+/build/
+/dist/
+
+# Unit Test
+
+/coverage/
+
+# Configuration
+
+/package-lock.json
+/.husky/_/
