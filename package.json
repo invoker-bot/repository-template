@@ -1,14 +1,14 @@
 {
   "name": "repository-template",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "description": "A repository template for common open-source project standardization (README, CONTRIBUTING, GitHub templates).",
   "scripts": {
     "test": "(is-ci && npm install) || exit 0",
     "commit": "cz",
     "prepare": "git config commit.template COMMIT_TEMPLATE.txt && husky install",
     "release": "standard-version",
-    "release:pre": "standard-version --prelease",
-    "release:as": "standard-version --release-as"
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "repository": {
     "type": "git",
