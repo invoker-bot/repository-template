@@ -1,0 +1,10 @@
+<type>(<scope>): <subject>
+# <type>: feat/fix/docs/style/refactor/perf/test/build/ci/chore/revert
+# <scope>: the module you edit
+# <subject>: add/drop/start/stop/ .../
+
+<body>
+
+<footer>
+# Closes/Fixes/Resolves: #issue
+# See/Refs: <link>
