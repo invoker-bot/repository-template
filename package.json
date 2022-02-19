@@ -19,7 +19,10 @@
     "Repository",
     "Template"
   ],
-  "author": "Invoker Bot",
+  "author": {
+    "name":"Invoker Bot",
+    "email": "invoker-bot@outlook.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/invokerrrr/repository-template/issues"
