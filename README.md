@@ -1,6 +1,6 @@
 # Repository Template
 
-[contributing]: CONTRIBUTING.md
+[contributing]: https://github.com/invoker-bot/repository-template/CONTRIBUTING.md
 
 A repository template for common open-source project standardization (README, CONTRIBUTING, GitHub templates, etc).
 
@@ -10,7 +10,7 @@ We hope this template enables you to write better documentation for your own pro
 
 ## Contributing
 
-Any [contributing](contributing) including bug reports, proposals and pull requests is welcomed!
+Any [contributing][contributing] including bug reports, proposals and pull requests is welcomed!
 
 ## References & Resources
 

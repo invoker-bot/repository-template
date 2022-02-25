@@ -1,27 +1,27 @@
 # Contributing
 
-[issue]: https://github.com/invokerrrr/repository-template/issues
-[fork]: https://github.com/invokerrrr/repository-template/fork
-[pr]: https://github.com/invokerrrr/repository-template/compare
-[license]: LICENSE
-[code-of-conduct]: CODE_OF_CONDUCT.md
+[issue]: https://github.com/invoker-bot/repository-template/issues
+[fork]: https://github.com/invoker-bot/repository-template/fork
+[pr]: https://github.com/invoker-bot/repository-template/compare
+[license]: https://github.com/invoker-bot/repository-template/LICENSE
+[code-of-conduct]: https://github.com/invoker-bot/repository-template/CODE_OF_CONDUCT.md
 
 Welcome! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great. There are many ways to contribute, including submitting bug reports, improving documentation, submitting feature requests, reviewing new submissions, or contributing code that can be incorporated into the project.
 
-Contributions to this project are released to the public under the [MIT LICENSE](license). (refs: [Contributions Under Repository License](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license))
+Contributions to this project are released to the public under the [MIT LICENSE][license]. (refs: [Contributions Under Repository License](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license))
 
 Please note that this project is released with a [Contributor Code of Conduct][code-of-conduct]. By participating in this project you agree to abide by its terms.
 
 ## Reporting Bugs
 
-Before you submit your issue, please search the [issue](issue) archive - maybe your question or issue has already been identified or addressed.
+Before you submit your issue, please search the [issue][issue] archive - maybe your question or issue has already been identified or addressed.
 
-If you find a bug in the source code, you can help us by submitting an issue to our [GitHub issue tracker](issue) with bug request template. 
+If you find a bug in the source code, you can help us by submitting an issue to our [GitHub issue tracker][issue] with bug request template. 
 Even better, you can submit a Pull Request with a fix.
 
 ## Feature Request
 
-Before requesting new features, please assert your feature is not already been proposed in our [GitHub issue tracker](issue).
+Before requesting new features, please assert your feature is not already been proposed in our [GitHub issue tracker][issue].
 Then, you can submit a proposal with feature request template.
 
 ## Pull Request
@@ -42,7 +42,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 ## Resources
 
-- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
-- [Using Pull Requests](https://docs.github.com/articles/about-pull-requests/)
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute)
+- [Using Pull Requests](https://docs.github.com/articles/about-pull-requests)
 - [GitHub Help](https://docs.github.com)
 - [Git Help](https://git-scm.com/docs/git)
