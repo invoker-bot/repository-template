@@ -1,26 +1,28 @@
 {
-  "name": "repository-template",
+  "name": "@invoker-bot/generator-repository-template",
   "version": "0.1.0-alpha.1",
   "description": "A repository template for common open-source project standardization (README, CONTRIBUTING, GitHub templates).",
   "scripts": {
-    "test": "(is-ci && npm install) || exit 0",
+    "test": "exit 0",
     "commit": "cz",
-    "prepare": "git config commit.template COMMIT_TEMPLATE.txt && husky install",
-    "release": "standard-version",
-    "release:patch": "standard-version --release-as patch",
-    "release:minor": "standard-version --release-as minor",
-    "release:major": "standard-version --release-as major"
+    "prepare": "is-ci || (git config commit.template COMMIT_TEMPLATE.txt && husky install)",
+    "release": "standard-version --no-verify",
+    "release:pre": "standard-version --no-verify --prerelease",
+    "release:patch": "standard-version --no-verify --release-as patch",
+    "release:minor": "standard-version --no-verify --release-as minor",
+    "release:major": "standard-version --no-verify --release-as major"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/invoker-bot/repository-template.git"
   },
   "keywords": [
-    "Repository",
-    "Template"
+    "github-template",
+    "git-template",
+    "yeoman-generator"
   ],
   "author": {
-    "name":"Invoker Bot",
+    "name": "Invoker Bot",
     "email": "invoker-bot@outlook.com"
   },
   "license": "MIT",
@@ -35,11 +37,18 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.3.2",
+    "yeoman-test": "^6.3.0"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {
+    "yeoman-generator": "^5.6.1"
+  },
+  "files": [
+    "."
+  ]
 }

@@ -13,11 +13,26 @@ We hope this template enables you to write better documentation for your own pro
 
 There are few ways to use this template. e.g.:
 * Click the button [Use this template][generate] on GitHub to create a new repository directly.
-* With [Yoeman](https://yeoman.io)
+* With [Yoeman](https://yeoman.io).
 
 ## Contributing
 
 Any [contributing][contributing] including bug reports, proposals and pull requests is welcomed!
+
+
+
+## Usage
+
+1. Bump version with [Standard Version](https://github.com/conventional-changelog/standard-version)
+    
+    * with first release, run:
+        > ```npm run release -- --first-release```
+    * with pre-release, run:
+        > ```npm run release -- --prerelease [alpha|beta|rc|stable]```
+    * with version bump, run:
+        > ```npm run release -- --release-as [major|minor|patch]```
+
+
 
 ## References & Resources
 
